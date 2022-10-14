@@ -1,6 +1,6 @@
-package lesson5.api;
+package lesson5.Api;
 
-import lesson5.dto.Product;
+import lesson5.DTO.Product;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.*;

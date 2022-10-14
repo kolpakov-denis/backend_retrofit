@@ -1,8 +1,8 @@
 package lesson5;
 
-import lesson5.api.CategoryService;
-import lesson5.dto.GetCategoryResponse;
-import lesson5.utils.RetrofitUtils;
+import lesson5.Api.CategoryService;
+import lesson5.DTO.GetCategoryResponse;
+import lesson5.Utilitiess.RetrofitUtils;
 import lombok.SneakyThrows;
 import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.BeforeAll;

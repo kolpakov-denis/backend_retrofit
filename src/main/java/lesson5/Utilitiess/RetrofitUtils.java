@@ -1,4 +1,4 @@
-package lesson5.utils;
+package lesson5.Utilitiess;
 
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
@@ -34,19 +34,10 @@ public class RetrofitUtils {
         return prop.getProperty("url");
     }
 
-
     HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
     LoggingInterceptor logging2 = new LoggingInterceptor();
     OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 
-
-/*    public Retrofit getRetrofit(){
-        return new Retrofit.Builder()
-                .baseUrl(getBaseUrl())
-                .addConverterFactory(JacksonConverterFactory.create())
-                .build();
-
-    }*/
 
     public Retrofit getRetrofit(){
         logging.setLevel(BODY);
